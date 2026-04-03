@@ -12,3 +12,11 @@ def divide(a,b):
 print(divide(2,3))
 
 #why is this here?
+def branch(a,b):
+    if a > b:
+        return "a is greater than b"
+    elif a < b:
+        return "a is less than b"
+    else:
+        return "a is equal to b"
+print(branch(2,3))
